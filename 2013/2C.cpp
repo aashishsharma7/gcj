@@ -49,7 +49,6 @@ void recur(const VI *g, VI &a){
 			for(auto y: a2)
 				if(!vis[y] && y != x)
 					cnt++;
-			//printf("%d %d\n", x, cnt);
 			FOR(i, 1, MAXM){
 				if(!cnt && !vals[i]){
 					vis[x] = i;
